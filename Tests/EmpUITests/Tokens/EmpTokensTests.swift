@@ -16,7 +16,7 @@ struct EmpTokensTests {
             EmpSpacing.md.value,
             EmpSpacing.lg.value,
             EmpSpacing.xl.value,
-            EmpSpacing.xxl.value,
+            EmpSpacing.xxl.value
         ]
         for i in 0 ..< values.count - 1 {
             #expect(values[i] < values[i + 1])
@@ -43,7 +43,7 @@ struct EmpTokensTests {
             EmpRadius.sm.value,
             EmpRadius.md.value,
             EmpRadius.lg.value,
-            EmpRadius.full.value,
+            EmpRadius.full.value
         ]
         for i in 0 ..< values.count - 1 {
             #expect(values[i] < values[i + 1])
